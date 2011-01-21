@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6553ECE112E957A5001C99C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6553ECE012E957A5001C99C9 /* UIKit.framework */; };
+		6553ECE312E957A5001C99C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6553ECE212E957A5001C99C9 /* Foundation.framework */; };
+		6553ECE512E957A5001C99C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6553ECE412E957A5001C99C9 /* CoreGraphics.framework */; };
+		6553ECEB12E957A5001C99C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6553ECE912E957A5001C99C9 /* InfoPlist.strings */; };
+		6553ECEE12E957A5001C99C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6553ECED12E957A5001C99C9 /* main.m */; };
+		6553ECF112E957A5001C99C9 /* HotCocoaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6553ECF012E957A5001C99C9 /* HotCocoaAppDelegate.m */; };
+		6553ECF512E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6553ECF412E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.m */; };
+		6553ECF812E957A6001C99C9 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6553ECF612E957A6001C99C9 /* MainWindow_iPhone.xib */; };
+		6553ECFC12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 6553ECFB12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.m */; };
+		6553ECFF12E957A6001C99C9 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6553ECFD12E957A6001C99C9 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6553ECDC12E957A5001C99C9 /* HotCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6553ECE012E957A5001C99C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6553ECE212E957A5001C99C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6553ECE412E957A5001C99C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6553ECE812E957A5001C99C9 /* HotCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotCocoa-Info.plist"; sourceTree = "<group>"; };
+		6553ECEA12E957A5001C99C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6553ECEC12E957A5001C99C9 /* HotCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		6553ECED12E957A5001C99C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6553ECEF12E957A5001C99C9 /* HotCocoaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotCocoaAppDelegate.h; sourceTree = "<group>"; };
+		6553ECF012E957A5001C99C9 /* HotCocoaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCocoaAppDelegate.m; sourceTree = "<group>"; };
+		6553ECF312E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HotCocoaAppDelegate_iPhone.h; path = iPhone/HotCocoaAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		6553ECF412E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HotCocoaAppDelegate_iPhone.m; path = iPhone/HotCocoaAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		6553ECF712E957A6001C99C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		6553ECFA12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HotCocoaAppDelegate_iPad.h; path = iPad/HotCocoaAppDelegate_iPad.h; sourceTree = "<group>"; };
+		6553ECFB12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HotCocoaAppDelegate_iPad.m; path = iPad/HotCocoaAppDelegate_iPad.m; sourceTree = "<group>"; };
+		6553ECFE12E957A6001C99C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6553ECD912E957A5001C99C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6553ECE112E957A5001C99C9 /* UIKit.framework in Frameworks */,
+				6553ECE312E957A5001C99C9 /* Foundation.framework in Frameworks */,
+				6553ECE512E957A5001C99C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6553ECD112E957A5001C99C9 = {
+			isa = PBXGroup;
+			children = (
+				6553ECE612E957A5001C99C9 /* HotCocoa */,
+				6553ECDF12E957A5001C99C9 /* Frameworks */,
+				6553ECDD12E957A5001C99C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6553ECDD12E957A5001C99C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECDC12E957A5001C99C9 /* HotCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6553ECDF12E957A5001C99C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECE012E957A5001C99C9 /* UIKit.framework */,
+				6553ECE212E957A5001C99C9 /* Foundation.framework */,
+				6553ECE412E957A5001C99C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6553ECE612E957A5001C99C9 /* HotCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECEF12E957A5001C99C9 /* HotCocoaAppDelegate.h */,
+				6553ECF012E957A5001C99C9 /* HotCocoaAppDelegate.m */,
+				6553ECF212E957A5001C99C9 /* iPhone */,
+				6553ECF912E957A6001C99C9 /* iPad */,
+				6553ECE712E957A5001C99C9 /* Supporting Files */,
+			);
+			path = HotCocoa;
+			sourceTree = "<group>";
+		};
+		6553ECE712E957A5001C99C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECE812E957A5001C99C9 /* HotCocoa-Info.plist */,
+				6553ECE912E957A5001C99C9 /* InfoPlist.strings */,
+				6553ECEC12E957A5001C99C9 /* HotCocoa-Prefix.pch */,
+				6553ECED12E957A5001C99C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6553ECF212E957A5001C99C9 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECF312E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.h */,
+				6553ECF412E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.m */,
+				6553ECF612E957A6001C99C9 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		6553ECF912E957A6001C99C9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6553ECFA12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.h */,
+				6553ECFB12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.m */,
+				6553ECFD12E957A6001C99C9 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6553ECDB12E957A5001C99C9 /* HotCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6553ED0212E957A6001C99C9 /* Build configuration list for PBXNativeTarget "HotCocoa" */;
+			buildPhases = (
+				6553ECD812E957A5001C99C9 /* Sources */,
+				6553ECD912E957A5001C99C9 /* Frameworks */,
+				6553ECDA12E957A5001C99C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotCocoa;
+			productName = HotCocoa;
+			productReference = 6553ECDC12E957A5001C99C9 /* HotCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6553ECD312E957A5001C99C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mochi Development Inc.";
+			};
+			buildConfigurationList = 6553ECD612E957A5001C99C9 /* Build configuration list for PBXProject "HotCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6553ECD112E957A5001C99C9;
+			productRefGroup = 6553ECDD12E957A5001C99C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6553ECDB12E957A5001C99C9 /* HotCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6553ECDA12E957A5001C99C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6553ECEB12E957A5001C99C9 /* InfoPlist.strings in Resources */,
+				6553ECF812E957A6001C99C9 /* MainWindow_iPhone.xib in Resources */,
+				6553ECFF12E957A6001C99C9 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6553ECD812E957A5001C99C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6553ECEE12E957A5001C99C9 /* main.m in Sources */,
+				6553ECF112E957A5001C99C9 /* HotCocoaAppDelegate.m in Sources */,
+				6553ECF512E957A5001C99C9 /* HotCocoaAppDelegate_iPhone.m in Sources */,
+				6553ECFC12E957A6001C99C9 /* HotCocoaAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6553ECE912E957A5001C99C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6553ECEA12E957A5001C99C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6553ECF612E957A6001C99C9 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6553ECF712E957A6001C99C9 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6553ECFD12E957A6001C99C9 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6553ECFE12E957A6001C99C9 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6553ED0012E957A6001C99C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6553ED0112E957A6001C99C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6553ED0312E957A6001C99C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotCocoa/HotCocoa-Prefix.pch";
+				INFOPLIST_FILE = "HotCocoa/HotCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6553ED0412E957A6001C99C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotCocoa/HotCocoa-Prefix.pch";
+				INFOPLIST_FILE = "HotCocoa/HotCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6553ECD612E957A5001C99C9 /* Build configuration list for PBXProject "HotCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6553ED0012E957A6001C99C9 /* Debug */,
+				6553ED0112E957A6001C99C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6553ED0212E957A6001C99C9 /* Build configuration list for PBXNativeTarget "HotCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6553ED0312E957A6001C99C9 /* Debug */,
+				6553ED0412E957A6001C99C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6553ECD312E957A5001C99C9 /* Project object */;
+}
